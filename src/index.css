@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color-scheme: light dark;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  mix-blend-mode: multiply !important;
+}
